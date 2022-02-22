@@ -1,0 +1,46 @@
+<html>
+		<head>
+				
+		</head>
+				<body>
+						<input type="text" id="num1" placeholder="number1">
+						<input type="text" id="num2" placeholder="number2">
+						=
+						<label id="p"> </label>
+						<button type="button" onclick="abc()" >multiply</button>
+						<button type="button" onclick="abc1()" >addition</button>
+						<button type="button" onclick="abc2()" >substraction</button>
+						<button type="button" onclick="abc3()" >devide</button>
+				
+						<script>
+																
+								function abc(){
+								var x=document.getElementById("num1").value;
+								var y=document.getElementById("num2").value
+
+									document.getElementById("p").innerHTML=x*y;
+								}
+								
+								function abc1(){
+								var x=document.getElementById("num1").value;
+								var y=document.getElementById("num2").value;
+
+									document.getElementById("p").innerHTML=x+y;
+								}
+								
+								function abc2(){
+								var x=document.getElementById("num1").value;
+								var y=document.getElementById("num2").value;
+
+									document.getElementById("p").innerHTML=x-y;
+								}
+								
+								function abc3(){
+								var x=document.getElementById("num1").value;
+								var y=document.getElementById("num2").value;
+
+									document.getElementById("p").innerHTML=x/y;
+								}
+						</script>
+				</body>
+</html>
